@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
-  const [isCommunityOpen, setCommunityOpen] = useState(false);
+  const [isStakeholdersOpen, setStakeholdersOpen] = useState(false);
   const communityRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
         communityRef.current &&
         !communityRef.current.contains(event.target as Node)
       ) {
-        setCommunityOpen(false);
+        setStakeholdersOpen(false);
       }
     };
     document.addEventListener('mousedown', handleClickOutside);
@@ -22,11 +22,11 @@ const Navbar: React.FC = () => {
   }, []);
 
   return (
-    <nav className="w-full bg-gradient-to-r from-blue-600 to-blue-900 p-4 text-white shadow-lg">
+    <nav className="w-full bg-green-700  p-4 text-white shadow-lg">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="text-2xl font-semibold tracking-wider">
-          IoT<span className="text-yellow-400">Community</span>
+          Carbon<span className="text-yellow-400">_track</span>
         </Link>
 
         {/* Hamburger for mobile */}
@@ -48,13 +48,13 @@ const Navbar: React.FC = () => {
           <div className="relative" ref={communityRef}>
             <button
               className="hover:text-yellow-400 focus:outline-none font-medium"
-              onClick={() => setCommunityOpen(!isCommunityOpen)}
+              onClick={() => setStakeholdersOpen(!isStakeholdersOpen)}
               aria-haspopup="true"
-              aria-expanded={isCommunityOpen}
+              aria-expanded={isStakeholdersOpen}
             >
-              Community
+              Stakeholders
             </button>
-            {isCommunityOpen && (
+            {isStakeholdersOpen && (
               <div
                 className="absolute left-0 mt-2 w-48 bg-white text-gray-800 rounded-md shadow-lg ring-1 ring-black ring-opacity-5"
                 role="menu"
@@ -63,43 +63,43 @@ const Navbar: React.FC = () => {
                 <Link
                   to="/participants"
                   className="block px-4 py-2 hover:bg-gray-100"
-                  onClick={() => setCommunityOpen(false)}
+                  onClick={() => setStakeholdersOpen(false)}
                   role="menuitem"
                 >
-                  Participants
+                  Industries
                 </Link>
                 <Link
                   to="/ai-in-iot"
                   className="block px-4 py-2 hover:bg-gray-100"
-                  onClick={() => setCommunityOpen(false)}
+                  onClick={() => setStakeholdersOpen(false)}
                   role="menuitem"
                 >
-                  AI in IoT
+                  Goverment
                 </Link>
                 <Link
                   to="/women-in-iot"
                   className="block px-4 py-2 hover:bg-gray-100"
-                  onClick={() => setCommunityOpen(false)}
+                  onClick={() => setStakeholdersOpen(false)}
                   role="menuitem"
                 >
-                  Women in IoT
+                  Private sector
                 </Link>
               </div>
             )}
           </div>
 
           {/* Other links */}
-          <Link to="/awards" className="hover:text-yellow-400 font-medium">
-            Awards
+          <Link to="/reviews" className="hover:text-yellow-400 font-medium">
+            Reviews
           </Link>
-          <Link to="/join" className="hover:text-yellow-400 font-medium">
-            Join Us
-          </Link>
-          <Link to="/about" className="hover:text-yellow-400 font-medium">
+          <Link to="/aboutus" className="hover:text-yellow-400 font-medium">
             About Us
           </Link>
-          <Link to="/contact" className="hover:text-yellow-400 font-medium">
-            Contact Us
+          <Link to="/singup" className="hover:text-yellow-400 font-medium">
+            SingUp
+          </Link>
+          <Link to="/login" className="hover:text-yellow-400 font-medium">
+            LogIn
           </Link>
         </div>
       </div>
