@@ -3,20 +3,12 @@ import { NavLink } from "react-router-dom";
 
 const LogIn = () => {
   return (
-    <div>
-      <section className=" flex flex-col items-center absolute top-0 bottom-0 left-0 right-0 overlay">
-        <div className="mt-40 text-center">
-          <h1 className="font-bold text-3xl text-white  ">
-            Welcome to Qwetu Loundry Booking System
-          </h1>
-          <h2 className="text-white ">
-            Making loundry services boking easy and more efficient.
-          </h2>
-        </div>
+    <div className="my-auto h-screen relative login">
+      <section className=" flex flex-col items-center ">
         <form
           className="bg-white w-2/6 flex flex-col items-center mt-5 px-8 py-4  border rounded "
         >
-          <h3 className="text-orange-600 font-semibold text-2xl">Sign In</h3>
+          <h3 className="text-green-700 font-semibold text-2xl">Sign In</h3>
           <div className="w-full flex flex-col">
             <label htmlFor="user name" className="py-1">
               Email
@@ -36,7 +28,7 @@ const LogIn = () => {
               required
               name="password"
             />
-            <button className="bg-orange-600 text-white py-2 rounded my-2">
+            <button className="bg-green-700 text-yello-400 text-xl py-2 rounded my-2">
               Sign In
             </button>
             <section className="flex gap-1 text-violet-600">
