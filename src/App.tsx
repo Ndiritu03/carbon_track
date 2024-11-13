@@ -25,6 +25,7 @@ const App: React.FC = () => {
       <Route path="/get-involved" element={<GetInvolved />} />
       </Routes>
       <Footer />
+      <Footer />
     </Router>
   );
 };
