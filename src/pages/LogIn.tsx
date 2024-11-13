@@ -11,7 +11,7 @@ const LogIn = () => {
           <h3 className="text-green-700 font-semibold text-2xl">Sign In</h3>
           <div className="w-full flex flex-col">
             <label htmlFor="user name" className="py-1">
-              Email
+              Regestration Number
             </label>
             <input
               type="email"

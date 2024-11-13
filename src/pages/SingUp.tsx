@@ -11,7 +11,7 @@ const SingUp = () => {
           <h3 className='text-green-700 font-semibold text-2xl'>Sign Up</h3>
           <div className='w-full flex flex-col'>
             <label htmlFor='Full Name' className='py-1'>
-              Full Name
+              Name Of Campany
             </label>
             <input
               type='text'
@@ -20,7 +20,7 @@ const SingUp = () => {
               name='full_name'
             />
             <label htmlFor='user name' className='py-1'>
-              User Name
+              Industry
             </label>
             <input
               type='text'
@@ -38,7 +38,7 @@ const SingUp = () => {
               name='email'
             />
             <label htmlFor='contact' className='py-1'>
-              Contact
+              Campany`s Regestration Number
             </label>
             <input
               type='number'
