@@ -61,7 +61,7 @@ const Navbar: React.FC = () => {
                 aria-label="Community submenu"
               >
                 <Link
-                  to="/participants"
+                  to="/industies-overview"
                   className="block px-4 py-2 hover:bg-gray-100"
                   onClick={() => setStakeholdersOpen(false)}
                   role="menuitem"

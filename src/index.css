@@ -23,3 +23,22 @@
     background-repeat: no-repeat;
     position: relative;
 }
+.getInvolved {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAi9FTSSXjhyrYMMaMqMBwIjFSNiG-o4MVZg&s);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.learnMore {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0YLVxY3e-ai7n0Hee2ioaKh0G4qWmQJ2wLA&s);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+overlay {
+    /* background-color: rgb(79, 70, 229, 0.5); */
+    background-color: rgb(249, 115, 22, 0.2);
+  }

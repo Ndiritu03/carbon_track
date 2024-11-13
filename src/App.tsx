@@ -10,6 +10,7 @@ import AboutUs from './pages/AboutUs';
 import ReviewPage from './pages/ReviewPage';
 import LearnMore from './pages/LearnMore';
 import GetInvolved from './pages/GetInvolved';
+import IndustriesOverview from './pages/IndustriesOverview';
 
 const App: React.FC = () => {
   return (
@@ -23,9 +24,9 @@ const App: React.FC = () => {
       <Route path="/reviews" element={<ReviewPage />} />
       <Route path="/learn-more" element={<LearnMore />} />
       <Route path="/get-involved" element={<GetInvolved />} />
+      <Route path="/industies-overview" element={<IndustriesOverview />} />
       </Routes>
-      <Footer />
-      <Footer />
+      <Footer /> 
     </Router>
   );
 };
