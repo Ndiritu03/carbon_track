@@ -11,6 +11,8 @@ import ReviewPage from './pages/ReviewPage';
 import LearnMore from './pages/LearnMore';
 import GetInvolved from './pages/GetInvolved';
 import IndustriesOverview from './pages/IndustriesOverview';
+import GovernmentContributions from './pages/Goverment';
+import PrivateSectorContributions from './pages/PrivateSectors';
 
 const App: React.FC = () => {
   return (
@@ -25,6 +27,8 @@ const App: React.FC = () => {
       <Route path="/learn-more" element={<LearnMore />} />
       <Route path="/get-involved" element={<GetInvolved />} />
       <Route path="/industies-overview" element={<IndustriesOverview />} />
+      <Route path="/goverment" element={<GovernmentContributions />} />
+      <Route path="/private" element={<PrivateSectorContributions />} />
       </Routes>
       <Footer /> 
     </Router>

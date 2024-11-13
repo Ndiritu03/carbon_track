@@ -69,7 +69,7 @@ const Navbar: React.FC = () => {
                   Industries
                 </Link>
                 <Link
-                  to="/ai-in-iot"
+                  to="/goverment"
                   className="block px-4 py-2 hover:bg-gray-100"
                   onClick={() => setStakeholdersOpen(false)}
                   role="menuitem"
@@ -77,7 +77,7 @@ const Navbar: React.FC = () => {
                   Goverment
                 </Link>
                 <Link
-                  to="/women-in-iot"
+                  to="/private"
                   className="block px-4 py-2 hover:bg-gray-100"
                   onClick={() => setStakeholdersOpen(false)}
                   role="menuitem"

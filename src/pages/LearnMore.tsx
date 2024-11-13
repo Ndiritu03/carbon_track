@@ -2,8 +2,8 @@ import React from 'react';
 
 const LearnMore = () => {
   return (
-    <div className="h-screen relative learnMore text-white min-h-screen flex items-center justify-center p-6">
-      <div className="text-center">
+    <div className="h-screen relative bg-gray-200 learnMore text-white min-h-screen flex items-center justify-center p-6">
+      <div className="text-center font-bold text-xl">
         <h1 className="text-4xl font-extrabold text-yellow-500">Learn More About Our Mission</h1>
         <p className="mt-4 text-lg text-yellow-300 max-w-2xl mx-auto">
           We aim to reduce global carbon emissions by implementing sustainable practices across various sectors. 
