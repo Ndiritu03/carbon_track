@@ -5,6 +5,11 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Login from './pages/LogIn';
 import SingUp from './pages/SingUp';
+import Footer from './components/Footer';
+import AboutUs from './pages/AboutUs';
+import ReviewPage from './pages/ReviewPage';
+import LearnMore from './pages/LearnMore';
+import GetInvolved from './pages/GetInvolved';
 
 const App: React.FC = () => {
   return (
@@ -14,7 +19,12 @@ const App: React.FC = () => {
       <Route path='/' element={<Home/>} />
       <Route path='/login' element={<Login/>} />
       <Route path='/singup' element={<SingUp/>} />
+      <Route path='/aboutus' element={<AboutUs/>} />
+      <Route path="/reviews" element={<ReviewPage />} />
+      <Route path="/learn-more" element={<LearnMore />} />
+      <Route path="/get-involved" element={<GetInvolved />} />
       </Routes>
+      <Footer />
     </Router>
   );
 };

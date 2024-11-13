@@ -2,10 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-.background {
-    background-image: url(./assests/image.png);
+.home {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpw6uPJKEGkv0S62X-ieksYmuowcxnK1jALw&s);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+}
+.login {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR21z9LvBshhZy5NePJ_7arQcvN-0IxCJgSOA&s);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.singup {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmTxaxHbyN_inrmValOHytcnsxqUAf7Dr9vQ&s);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
 }

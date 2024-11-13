@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 
 const SingUp = () => {
   return (
-    <div className="m-4">
+    <div className=" h-screen relative singup">
     <form
-          className='bg-white w-2/5 flex flex-col items-center m-auto px-8 py-4  border rounded'
+          className='bg-white w-2/5 flex flex-col m-4 items-center m-auto px-8 py-4  border rounded'
         
         >
           <h3 className='text-green-700 font-semibold text-2xl'>Sign Up</h3>
@@ -83,4 +83,4 @@ const SingUp = () => {
   );
 };
 
-export default SingUp;
+export default SingUp;
