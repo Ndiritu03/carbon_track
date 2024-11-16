@@ -7,34 +7,48 @@ const privateProjects = [
     company: "EcoCorp",
     description: "Revamping manufacturing processes to use eco-friendly materials and reduce waste.",
     impact: "Reduced emissions by 25% in the past year.",
-    image: "https://example.com/image/green_manufacturing.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Dp3KbIQD49b93rZw1MCF2a0So8yHwRxkVA&s",
   },
   {
     name: "Carbon-Neutral Supply Chain",
     company: "Global Goods Ltd.",
     description: "Aiming for a fully carbon-neutral supply chain through renewable energy and carbon offsets.",
     impact: "Expected to achieve carbon neutrality by 2025.",
-    image: "https://example.com/image/supply_chain.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsb9iQhHWBHbdpkHPuhnQfdhuL01EmvC3VyQ&s",
   },
   {
     name: "Urban Green Spaces",
     company: "CityScape Developers",
     description: "Investing in green spaces in urban areas to offset emissions and improve air quality.",
     impact: "Offsetting an estimated 2 million tons of CO₂ annually.",
-    image: "https://example.com/image/urban_green.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr51sno4vq4fo-Sz6h7orCeiaCwa1uA6fmTw&s",
   },
   {
     name: "Electric Fleet Conversion",
     company: "QuickMove Logistics",
     description: "Transitioning from diesel vehicles to electric for all deliveries by 2030.",
     impact: "Reduced transport emissions by 40% so far.",
-    image: "https://example.com/image/electric_fleet.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZGnrG5G_8Rnw52ZTTbI7QYOglN9odIYPwlg&s",
+  },
+  {
+    name: "Electric Fleet Conversion",
+    company: "QuickMove Logistics",
+    description: "Transitioning from diesel vehicles to electric for all deliveries by 2030.",
+    impact: "Reduced transport emissions by 40% so far.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZGnrG5G_8Rnw52ZTTbI7QYOglN9odIYPwlg&s",
+  },
+  {
+    name: "Green Manufacturing Initiative",
+    company: "EcoCorp",
+    description: "Revamping manufacturing processes to use eco-friendly materials and reduce waste.",
+    impact: "Reduced emissions by 25% in the past year.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Dp3KbIQD49b93rZw1MCF2a0So8yHwRxkVA&s",
   },
 ];
 
 const PrivateSectorContributions = () => {
   return (
-    <div className="bg-gray-100 min-h-screen p-8">
+    <div className="bg-gray-100 min-h-screen p-8 mt-8">
       <div className="text-center mb-10">
         <h1 className="text-4xl font-bold text-purple-800">Private Sector Contributions to Carbon Emission Reduction</h1>
         <p className="text-lg text-gray-600 mt-2">

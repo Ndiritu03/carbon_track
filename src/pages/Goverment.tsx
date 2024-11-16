@@ -26,11 +26,23 @@ const projects = [
     impact: "Expected to cut landfill emissions by 30%.",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFhkVSNfgIA-H0E9-QsV7q7J2SxVbupM1BIQ&s",
   },
+  {
+    name: "National Solar Initiative",
+    description: "A large-scale project to increase the adoption of solar energy across the country.",
+    impact: "Expected to reduce emissions by 20% by 2030.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1MSxaI5Itlwip5-7lRvGswho8EIkgwnokWA&s",
+  },
+  {
+    name: "Reforestation Program",
+    description: "Planting millions of trees in deforested areas to absorb CO₂ from the atmosphere.",
+    impact: "Projected to offset 5 million tons of CO₂ annually.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6YB_7_lzYKFNxAjAJgSoboN0F_ON_SUFXfg&s",
+  },
 ];
 
 const GovernmentContributions = () => {
   return (
-    <div className="bg-gray-100 min-h-screen p-8">
+    <div className="bg-gray-100 min-h-screen p-8 mt-8">
       <div className="text-center mb-10">
         <h1 className="text-4xl font-bold text-blue-800">Government's Contributions to Carbon Emission Reduction</h1>
         <p className="text-lg text-gray-600 mt-2">

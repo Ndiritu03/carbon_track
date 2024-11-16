@@ -16,7 +16,7 @@
     background-repeat: no-repeat;
     position: relative;
 }
-.singup {
+.signup {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmTxaxHbyN_inrmValOHytcnsxqUAf7Dr9vQ&s);
     background-size: cover;
     background-position: center;
@@ -30,7 +30,13 @@
     background-repeat: no-repeat;
     position: relative;
 }
-
+.learnMore {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmTxaxHbyN_inrmValOHytcnsxqUAf7Dr9vQ&s);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
 
 overlay {
     /* background-color: rgb(79, 70, 229, 0.5); */

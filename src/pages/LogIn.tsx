@@ -3,46 +3,41 @@ import { NavLink } from "react-router-dom";
 
 const LogIn = () => {
   return (
-    <div className="my-auto h-screen relative login">
-      <section className=" flex flex-col items-center ">
-        <form
-          className="bg-white w-2/6 flex flex-col items-center mt-5 px-8 py-4  border rounded "
-        >
-          <h3 className="text-green-700 font-semibold text-2xl">Sign In</h3>
-          <div className="w-full flex flex-col">
-            <label htmlFor="user name" className="py-1">
-              Regestration Number
-            </label>
-            <input
-              type="email"
-              className=" focus:outline-violet-600 py-1 px-2 border"
-              name="email"
-              required
-            />
-            <label htmlFor="password" className="py-1">
-              Password
-            </label>
-            <input
-              type="password"
-              className=" focus:outline-violet-600 py-1 px-2 border"
-              required
-              name="password"
-            />
-            <button className="bg-green-700 text-yello-400 text-xl py-2 rounded my-2">
-              Sign In
-            </button>
-            <section className="flex gap-1 text-violet-600">
-              <p>Don`t have an account?</p>
-              <NavLink to="/register" className="underline ">
-                <p>Sign up</p>
-              </NavLink>
-            </section>
-          </div>
-        </form>
-              
-      </section>
+    <div className="h-screen relative login flex items-center justify-center mt-16 bg-gray-100">
+      <form className="bg-white  max-w-md flex flex-col items-center px-8 py-6 border rounded shadow-md">
+        <h3 className="text-green-700 font-semibold text-2xl mb-4">Sign In</h3>
+        <div className="w-full flex flex-col">
+          <label htmlFor="registration_number" className="py-1">
+            Registration Number
+          </label>
+          <input
+            type="text"
+            className="focus:outline-green-600 py-2 px-4 border rounded"
+            name="registration_number"
+            required
+          />
+          <label htmlFor="password" className="py-1">
+            Password
+          </label>
+          <input
+            type="password"
+            className="focus:outline-green-600 py-2 px-4 border rounded"
+            name="password"
+            required
+          />
+          <button className="bg-green-700 text-yellow-400 text-xl py-2 rounded mt-4 hover:bg-green-800">
+            Sign In
+          </button>
+          <section className="flex justify-center gap-1 text-green-600 mt-4">
+            <p>Don’t have an account?</p>
+            <NavLink to="/singup" className="underline hover:text-green-800">
+              Sign up
+            </NavLink>
+          </section>
+        </div>
+      </form>
     </div>
   );
 };
 
-export default LogIn;
+export default LogIn;

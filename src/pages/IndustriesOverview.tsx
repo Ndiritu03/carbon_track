@@ -45,7 +45,7 @@ const companies = [
 
 const IndustriesOverview = () => {
   return (
-    <div className="bg-gray-100 min-h-screen p-8">
+    <div className="bg-gray-100 min-h-screen p-8 mt-8">
       <div className="text-center mb-10">
         <h1 className="text-4xl font-bold text-green-800">Company Contributions to Carbon Emissions</h1>
         <p className="text-lg text-gray-600 mt-2">An overview of emissions and reduction efforts across industries.</p>
